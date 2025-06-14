@@ -52,7 +52,7 @@ with st.sidebar:
 
 medical_agent = Agent(
     model=Gemini(
-        id="gemini-2.0-flash",
+        id="gemini-2.5-flash-preview-05-20",
         api_key=st.session_state.GOOGLE_API_KEY
     ),
     tools=[DuckDuckGoTools()],
