@@ -1,0 +1,8 @@
+streamlit
+Pillow
+agno
+pydicom
+numpy
+google-generativeai
+google-genai
+duckduckgo_search 
