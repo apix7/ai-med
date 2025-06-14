@@ -1,6 +1,6 @@
 # 🏥 Medical Imaging Diagnosis Agent
 
-![Medical Imaging Banner](https://i.imgur.com/JZhVcbX.png)
+![Medical Imaging Application Screenshot](image.png)
 
 A powerful AI-powered application for analyzing and diagnosing medical images. This tool leverages Google's Gemini model to provide detailed analysis of various medical imaging formats including X-rays, MRIs, CT scans, and DICOM files.
 
@@ -9,7 +9,7 @@ A powerful AI-powered application for analyzing and diagnosing medical images. T
 ## 🌟 Features
 
 - **Modern, Intuitive UI**: Clean and professional interface built with Streamlit
-- **Multi-format Support**: Handles standard image formats (JPG, PNG) and medical DICOM files
+- **Multi-format Support**: Handles standard image formats (JPG, PNG, JPEG) and medical DICOM files
 - **AI-Powered Analysis**: Utilizes Google's Gemini 2.0 model for state-of-the-art image interpretation
 - **Comprehensive Reports**: Generates structured analysis including:
   - Image Type & Region Identification
@@ -56,8 +56,8 @@ Recent studies on normal chest radiographs:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/medical-image.git
-   cd medical-image
+   git clone https://github.com/apix7/ai-med.git
+   cd ai-med
    ```
 
 2. **Create and activate a virtual environment**
@@ -86,23 +86,17 @@ Recent studies on normal chest radiographs:
 2. **Enter your Google API Key**
    - On first launch, you'll be prompted to enter your Google API Key in the sidebar
    - This key is securely stored in your session state and not shared externally
+   - You can get your API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
 3. **Upload a medical image**
-   - Click the upload button to select an image file
+   - Use the file uploader to select an image file
    - Supported formats: JPG, JPEG, PNG, DICOM
+   - Maximum file size: 200MB
    
 4. **Get AI Analysis**
    - Click the "Analyze Image" button
    - Wait for the AI to process the image (typically 10-30 seconds)
    - Review the comprehensive analysis report
-
-## 📸 Screenshots
-
-### Application Interface
-![App Interface](https://i.imgur.com/JZhVcbX.png)
-
-### Sample Analysis
-![Sample Analysis](https://i.imgur.com/JZhVcbX.png)
 
 ## 🔒 Privacy & Security
 
